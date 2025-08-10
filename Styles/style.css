@@ -67,7 +67,7 @@ article > h1{
 
 article>p{
     padding: 5px;
-    margin: 16px 0px;
+    margin: 10px 0px;
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
@@ -80,6 +80,7 @@ article>p{
 article > h2{
     font-family: "Goblin One",'Times New Roman', Times serif;
     color: var(--cor4);
+    font-size: 1em;
     text-shadow: 1px 1px 1px black;
     text-align: center;
 }
