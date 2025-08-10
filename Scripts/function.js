@@ -7,6 +7,7 @@ function sumir() {
 
 function aceitar(){
     window.alert("PARABÉNS VOCÊ ACABA DE SER PROMOVIDA A MINHA NAMORADA !!!!!");
+    ilink.style.display = 'flex';
 }
 function displayPedido(){
     declaration.style.display = 'none';

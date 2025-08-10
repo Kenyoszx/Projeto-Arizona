@@ -132,6 +132,23 @@ section#container>div.question>button#no{
     background-color: red;
 }
 
+section#container>div#ilink{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+section#container>div#ilink>a{
+    background-color: var(--cor2);
+    text-decoration: none;
+    font-family: var(--fontepoema);
+    color: var(--cor3);
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
 footer{
     width: auto;
     height: 40px;
