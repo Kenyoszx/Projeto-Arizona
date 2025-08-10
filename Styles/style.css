@@ -50,7 +50,7 @@ article{
     transform: translate(-50%, -50%);
     overflow: hidden;
     width: 70vw;
-    height: 90vh;
+    height: 100%;
     background-color: var(--cor0);
     border: solid 1px black;
     border-radius: 5px;
@@ -71,8 +71,8 @@ article>p{
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1.2em;
     color: var(--cor5);
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
