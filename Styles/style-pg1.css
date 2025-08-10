@@ -66,6 +66,7 @@ section#declaration{
 section#declaration>p{
     font-family: var(--fontepoema);
     font-size: 1.2em;
+    text-indent: 15px;
     line-height: 1.5em;
     text-align: justify;
 }
