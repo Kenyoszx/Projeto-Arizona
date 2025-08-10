@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,34 +10,38 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <script src="Scripts/function.js"></script>
 </head>
+
 <body>
     <header>
         <h1>
             O RANCHO - Orla
         </h1>
     </header>
-    
+
     <main>
         <article>
             <h1>Esperamos que tenha gostado</h1>
-            <p>Somos descendentes de agricultores e a fama das nossas comidas feitas nos "ranchos" das nossas fazendas nos levou a nos aventurar nesse mundo feito especialmente para cada um de vocês! <br>
-               Endereço: Avenida Cardoso de Sá, 13, Centro, Petrolina/PE
+            <p>Somos descendentes de agricultores e a fama das nossas comidas feitas nos "ranchos" das nossas fazendas
+                nos levou a nos aventurar nesse mundo feito especialmente para cada um de vocês! <br>
+                Endereço: Avenida Cardoso de Sá, 13, Centro, Petrolina/PE
             </p>
             <h2> Avalie nosso Atendimento</h2>
             <div>
                 <form action="PHP/satisfaction.php" method="post">
                     <label for="itaxa" class="description">Taxa de Satisfação (0 a 10)</label>
-                    <input type="range" name="taxa" id="itaxa" min="0" max="10" value="0" class="campo" oninput="irate.innerHTML = Number(itaxa.value)">
+                    <input type="range" name="taxa" id="itaxa" min="0" max="10" value="0" class="campo"
+                        oninput="irate.innerHTML = Number(itaxa.value)">
                     <output id="irate">0</output> <br>
-                    <a href="Pages/pedido.html" class="botao">Enviar Resposta 
+                    <a href="Pages/pedido.html" class="botao">Enviar Resposta
                     </a>
                 </form>
             </div>
             <div class="logo">
-                    <img id="ilogo" src="images/logo.jpg" alt="Logo O rancho">
-                </div>
+                <img id="ilogo" src="images/logo.jpg" alt="Logo O rancho">
+            </div>
         </article>
     </main>
-    
+    <footer></footer>
 </body>
+
 </html>

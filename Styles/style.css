@@ -71,6 +71,7 @@ article>p{
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
+    font-size: 1.2em;
     line-height: 1.5em;
     color: var(--cor5);
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
@@ -138,4 +139,11 @@ img#ilogo{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+footer{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
