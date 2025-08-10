@@ -45,21 +45,48 @@ header > h1{
 }
 
 main{
-    background-color: blue;
+    background-color: var(--cor4);
     padding: 10px;
     width: 90vw;
     height: 100vh;
     margin: auto;
 }
 
+section{
+    margin: 10px 0px;
+}
+
+section#declaration{
+    background-color: var(--cor0);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+section#declaration>p{
+    font-family: var(--fontepoema);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+section#declaration>div.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section#container{
-    background-color: yellow;
+    display: none;
+    background-color: var(--cor0);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 section#container>h1{
     font-family: var(--fontepoema);
     font-size: 2em;
-    color: var(--cor1);
+    color: var(--cor3);
     text-shadow: 1px 1px 1px black;
     text-align: center;
 }
