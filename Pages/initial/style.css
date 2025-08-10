@@ -16,14 +16,14 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+html{
     font-family: var(--fontepadrao);
-    background-image: linear-gradient(to top,var(--cor0),var(--cor2));
-    
+    background-image: linear-gradient(to bottom,var(--cor0),var(--cor2));
+    width: 100%;
 }
 
 header{
-    background-image: linear-gradient(to bottom,var(--cor0),var(--cor2));
+    
     min-height: 150px;
     display: flex;
     align-items: center;
@@ -42,7 +42,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor2);
 }
 nav > a{
     text-decoration: none;
