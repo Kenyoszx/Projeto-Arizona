@@ -23,6 +23,10 @@ html {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header {
 
     min-height: 150px;
