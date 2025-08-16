@@ -43,7 +43,7 @@ article{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 300px;
+    max-width: 310px;
     margin: auto;
     background-color: var(--cor0);
     border: solid 1px black;
