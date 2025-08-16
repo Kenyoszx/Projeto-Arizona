@@ -18,28 +18,28 @@
         </h1>
     </header>
 
-    <main>
-        <article>
-            <h1>Esperamos que tenha gostado</h1>
-            <p>Somos descendentes de agricultores e nossas comidas feitas nos "ranchos" nos levou a nos aventurar nesse mundo feito especialmente para cada um de vocês!
-            <p>Endereço: Avenida Cardoso de Sá, 13, Centro, Petrolina/PE</p>
-            </p>
-            <h2> Avalie nosso Atendimento</h2>
-            <div>
-                <form action="PHP/satisfaction.php" method="post">
-                    <label for="itaxa" class="description">Taxa de Satisfação (0 a 10)</label>
-                    <input type="range" name="taxa" id="itaxa" min="0" max="10" value="0" class="campo"
-                        oninput="irate.innerHTML = Number(itaxa.value)">
-                    <output id="irate">0</output> <br>
-                    <a href="Pages/pedido.html" class="botao">Enviar Resposta
-                    </a>
-                </form>
-            </div>
-            <div class="logo">
-                <img id="ilogo" src="images/logo.jpg" alt="Logo O rancho">
-            </div>
-        </article>
-    </main>
+    <article>
+        <h1>Esperamos que tenha gostado</h1>
+        <p>Somos descendentes de agricultores e nossas comidas feitas nos "ranchos" nos levou a nos aventurar nesse
+            mundo feito especialmente para cada um de vocês!
+        <p>Endereço: Avenida Cardoso de Sá, 13, Centro, Petrolina/PE</p>
+        </p>
+        <h2> Avalie nosso Atendimento</h2>
+        <div>
+            <form action="PHP/satisfaction.php" method="post">
+                <label for="itaxa" class="description">Taxa de Satisfação (0 a 10)</label>
+                <input type="range" name="taxa" id="itaxa" min="0" max="10" value="0" class="campo"
+                    oninput="irate.innerHTML = Number(itaxa.value)">
+                <output id="irate">0</output> <br>
+                <a href="Pages/pedido.html" class="botao">Enviar Resposta
+                </a>
+            </form>
+        </div>
+        <div class="logo">
+            <img id="ilogo" src="images/logo.jpg" alt="Logo O rancho">
+        </div>
+    </article>
+
     <footer></footer>
 </body>
 
