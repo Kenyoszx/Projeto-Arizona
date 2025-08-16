@@ -5,6 +5,10 @@
     article{
         max-width: 500px;
     }
+
+    section{
+        width: 600px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -12,11 +16,18 @@
     article{
         max-width: 700px;
     }
+    section{
+        width: 750px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1280px) {
     article{
         max-width: 800px;
+    }
+
+    section{
+        width: 850px;
     }
 }

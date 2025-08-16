@@ -21,6 +21,8 @@
 }
 
 body{
+    display: flex;
+    flex-flow: column nowrap;
     background-color: black;
     background-image: url(../images/fundo.jpg);
     background-repeat: no-repeat;
@@ -44,16 +46,16 @@ header > h1{
     text-align: center;
 }
 
-main{
-    background-color: var(--cor4);
-    padding: 10px;
-    width: 90vw;
-    height: 100vh;
-    margin: auto;
-}
 
 section{
-    margin: 10px 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 section#declaration{
@@ -71,10 +73,12 @@ section#declaration>p{
     text-align: justify;
 }
 
-section#declaration>div.imagem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+section#declaration>p#relationship{
+    font-size: 1.4em;
+}
+
+section#declaration>p#sign{
+    font-size: 1em;
 }
 
 section#container{
@@ -94,13 +98,14 @@ section#container>h1{
 
 section#container>div.imagem{
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
 
 section#container>div.imagem>img#invite{
     display: block;
-    width: auto;
+    align-self: center;
     margin: 10px;
     height: 300px;
     border-radius: 5px;
@@ -151,8 +156,13 @@ section#container>div#ilink>a{
 }
 
 footer{
-    width: auto;
-    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    width: 100vw;
+    height: 50px;
     background-color: var(--cor5);
     color: var(--cor0);    
 }
@@ -160,13 +170,10 @@ footer > p{
     font-family: var(--fontepadrao);
     font-size: 0.8em;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center 
+    margin-right: 5px;
 }
 .img_link{
-    padding: 5px;
-    margin-top: 2px;
+    padding: 0px 5px 0px 5px;
     width: 25px;
     height: 25px;
 }
